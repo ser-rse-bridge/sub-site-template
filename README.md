@@ -15,12 +15,11 @@ repository settings.
 
 In `_config.yml`:
 * `baseurl` should be set to the sub-site's top level
-* `repository` should set to the new org/repo 
-* `footer.links.url` for the "GitHub" label should be set to the full URL for the new repo
+* `repository` should set to the new org/repo.  This variable is used in "edit this file on GitHub" links.
+* `footer.links.url` for the "GitHub" label should be set to the full URL for the new repo.  This variable is used in the GitHub link in the footer.
 
 In the repository Settings > Pages > Build and Deployment section:
 * Set Source to `GitHub Actions` to use the `.github/workflows/jekyll.yml` action that's included in the repository.  Using an action is necessary because the site uses Jekyl plugins that are not supported in the "Classic Pages" build approach.
-* Set Branch to `main`
 
 ## Notes
 
