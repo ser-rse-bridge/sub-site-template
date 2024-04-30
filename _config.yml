@@ -26,7 +26,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   communities.  This effort originated in the April 2024 Dagstuhl Seminar 
   "[Research Software Engineering: Bridging Knowledge Gaps](https://www.dagstuhl.de/24161)" 
   (number 24161).
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/sub-site-template" # the subpath of your site, e.g. /blog
 url: "https://ser-rse-bridge.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
@@ -75,7 +75,7 @@ plugins:
 #   - vendor/ruby/
 #  - README.md
 
-repository: ser-rse-bridge/ser-rse-bridge.github.io
+repository: ser-rse-bridge/sub-site-template
 
 # This is needed to generate output for future events
 future: true
@@ -87,7 +87,7 @@ footer:
       url: https://www.dagstuhl.de/24161
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/ser-rse-bridge/ser-rse-bridge.github.io"
+      url: "https://github.com/ser-rse-bridge/sub-site-template"
 #    - label: "Licensed CC-BY unless otherwise indicated"
 #      icon: "fab fa-creative-commons-by"
 #      url: "https://creativecommons.org/licenses/by/4.0/"
