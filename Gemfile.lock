@@ -93,7 +93,7 @@ GEM
     unicode-display_width (2.5.0)
     uri (0.13.1)
     wdm (0.1.1)
-    gem "webrick", "~> 1.7"
+    webrick (~> 1.7)
 
 PLATFORMS
   arm64-darwin-20
